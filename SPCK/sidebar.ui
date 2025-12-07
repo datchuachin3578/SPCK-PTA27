@@ -1,0 +1,5456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1269</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1271</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+    </property>
+    <widget class="QPushButton" name="bt_account">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>10</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/user.png</normaloff>icon/user.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_cart">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>10</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/shopping-cart.png</normaloff>icon/shopping-cart.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_search">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>60</y>
+       <width>51</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: 0</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/search.png</normaloff>icon/search.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>35</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>431</x>
+       <y>66</y>
+       <width>591</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: 0;
+color: rgb(0, 0, 0);
+font: 24pt &quot;Verdana&quot;;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Search...</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sb_acc" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>70</y>
+       <width>111</width>
+       <height>89</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(106, 106, 106)</string>
+     </property>
+     <widget class="QPushButton" name="bt_login">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>2</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(34, 34, 34)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icon/11.png</normaloff>icon/11.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bt_res">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>45</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(34, 34, 34)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icon/12.png</normaloff>icon/12.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="bt_logo">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>-20</y>
+       <width>401</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/logo dat.png</normaloff>icon/logo dat.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>500</width>
+       <height>500</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_contact">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>878</x>
+       <y>131</y>
+       <width>142</width>
+       <height>59</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo.png</normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_home">
+     <property name="geometry">
+      <rect>
+       <x>431</x>
+       <y>131</y>
+       <width>142</width>
+       <height>59</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/7.png</normaloff>icon/7.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_products">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>131</y>
+       <width>142</width>
+       <height>59</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/6.png</normaloff>icon/6.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_about">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>729</x>
+       <y>131</y>
+       <width>142</width>
+       <height>59</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icon/8.png</normaloff>icon/8.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>400</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QWidget" name="sb_out" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1020</x>
+       <y>70</y>
+       <width>111</width>
+       <height>89</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(106, 106, 106)</string>
+     </property>
+     <widget class="QPushButton" name="bt_out">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>45</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(34, 34, 34)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icon/btuhpng.png</normaloff>icon/btuhpng.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bt_info">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>2</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(34, 34, 34)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo (2).png</normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo (2).png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>300</width>
+        <height>300</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <zorder>bt_contact</zorder>
+    <zorder>bt_home</zorder>
+    <zorder>bt_products</zorder>
+    <zorder>bt_about</zorder>
+    <zorder>lineEdit</zorder>
+    <zorder>bt_account</zorder>
+    <zorder>bt_cart</zorder>
+    <zorder>bt_search</zorder>
+    <zorder>sb_acc</zorder>
+    <zorder>bt_logo</zorder>
+    <zorder>sb_out</zorder>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>1271</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(172, 172, 172)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="sb_widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>-250</y>
+       <width>226</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(34, 34, 34);
+border: 0px solid white;
+border-radius: 12px</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="bt_room">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/2.png</normaloff>icon/2.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>200</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_table">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/3.png</normaloff>icon/3.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>200</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_light">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/4.png</normaloff>icon/4.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>200</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_noel">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/5.png</normaloff>icon/5.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>200</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_all">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo (1).png</normaloff>icon/Black White Simple Modern Neon Griddy Bold Technology Pixel Electronics Store Logo (1).png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>200</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>bt_all</zorder>
+     <zorder>bt_room</zorder>
+     <zorder>bt_table</zorder>
+     <zorder>bt_light</zorder>
+     <zorder>bt_noel</zorder>
+    </widget>
+    <widget class="QStackedWidget" name="stacked_tong">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1271</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_store">
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1261</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: 0</string>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1238</width>
+          <height>1222</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QFrame" name="frame_5">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>1200</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="geometry">
+             <rect>
+              <x>-20</x>
+              <y>0</y>
+              <width>1280</width>
+              <height>1200</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <widget class="QWidget" name="room">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(106, 106, 106)</string>
+             </property>
+             <widget class="QWidget" name="widget_2" native="true">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>20</y>
+                <width>1161</width>
+                <height>1161</height>
+               </rect>
+              </property>
+              <widget class="QWidget" name="widget_6" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_13">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_14">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/85804196c936d365b440bf260c385704.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_15">
+                <property name="geometry">
+                 <rect>
+                  <x>85</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Kệ sách</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_7" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_277">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>350.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_278">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/den ngu/vn-11134207-7r98o-lkpf0gl7xxpmfa.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_279">
+                <property name="geometry">
+                 <rect>
+                  <x>85</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Đèn ngủ</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_den">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_8" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_280">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>450.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_281">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/giuong/vn-11134207-7r98o-lp6f3niiw95n18.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_282">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>200</y>
+                  <width>141</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Đệm giường</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_giuong">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_18" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_283">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>240</y>
+                  <width>131</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>1.300.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_284">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/cay gia/vn-11134207-7ras8-m14zw7atfc6y28.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_285">
+                <property name="geometry">
+                 <rect>
+                  <x>85</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Cây giả</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_cay">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_19" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_286">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>240</y>
+                  <width>151</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>2.000.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_287">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/coc/vn-11134207-820l4-mfkfiwnnr5l92f.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_288">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>200</y>
+                  <width>151</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Cốc cao cấp</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_coc">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_20" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_289">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>250.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_290">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>231</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/tranh/vn-11134207-7r98o-lzfnneh99llt69.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_291">
+                <property name="geometry">
+                 <rect>
+                  <x>-10</x>
+                  <y>200</y>
+                  <width>291</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>            Tranh trang trí</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_tranh">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_21" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_292">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>100.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_293">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ghe/ghe.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_294">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Ghế lười</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_ghe">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_22" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_295">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>240</y>
+                  <width>191</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>450.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_296">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/tuong/vn-11134207-820l4-mesu6y9j6l8h95.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_297">
+                <property name="geometry">
+                 <rect>
+                  <x>55</x>
+                  <y>200</y>
+                  <width>181</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Tượng trang trí</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_tuong">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="table">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(106, 106, 106)</string>
+             </property>
+             <widget class="QWidget" name="widget_3" native="true">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>20</y>
+                <width>1161</width>
+                <height>1161</height>
+               </rect>
+              </property>
+              <widget class="QWidget" name="widget_23" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_26">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>760.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_31">
+                <property name="geometry">
+                 <rect>
+                  <x>40</x>
+                  <y>200</y>
+                  <width>201</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Tượng gấu bearbrick</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_4">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>201</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/table/berik/vn-11134207-7r98o-lxg402e4pucb1f..webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_24" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_298">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>350.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_300">
+                <property name="geometry">
+                 <rect>
+                  <x>40</x>
+                  <y>200</y>
+                  <width>231</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Giấy Decal dán bàn</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_den_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_30">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>201</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/table/decal/vn-11134207-7ras8-m1tcrnhect3n21.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_25" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_301">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>450.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_303">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>200</y>
+                  <width>141</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Đồng hồ cát</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_giuong_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_32">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>201</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/table/dong ho/dong-ho-cat-30-phut-phong-cach-vintage-1.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_26" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_304">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>131</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>1.300.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_306">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>141</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Hộp đựng bút</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_cay_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_33">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>201</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/table/hopbut/ec8a9fd650c5e4d7adc4dbc68532e456.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_27" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_307">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>240</y>
+                  <width>151</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>2.000.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_308">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/coc/vn-11134207-820l4-mfkfiwnnr5l92f.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_309">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>200</y>
+                  <width>151</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Cốc cao cấp</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_coc_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_28" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_310">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>250.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_311">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/tranh/vn-11134207-7r98o-lzfnneh99llt69.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_312">
+                <property name="geometry">
+                 <rect>
+                  <x>55</x>
+                  <y>200</y>
+                  <width>171</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Tranh trang trí</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_tranh_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_29" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px
+
+</string>
+               </property>
+               <widget class="QLabel" name="label_313">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>100.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_314">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ghe/ghe.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_315">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Ghế lười</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_ghe_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_30" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_316">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>240</y>
+                  <width>191</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>450.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_317">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/tuong/vn-11134207-820l4-mesu6y9j6l8h95.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_318">
+                <property name="geometry">
+                 <rect>
+                  <x>55</x>
+                  <y>200</y>
+                  <width>181</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Tượng trang trí</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_tuong_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px 
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="light">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(106, 106, 106)</string>
+             </property>
+             <widget class="QWidget" name="widget_4" native="true">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>20</y>
+                <width>1161</width>
+                <height>1161</height>
+               </rect>
+              </property>
+              <widget class="QWidget" name="widget_31" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_322">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_323">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_324">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_101">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_32" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_325">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_326">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_327">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_102">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_33" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_328">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_329">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_330">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_103">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_34" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_331">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_332">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_333">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_104">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_35" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_334">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_335">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_336">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_105">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_36" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_337">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_338">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_339">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_106">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_37" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_340">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_341">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_342">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_107">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_38" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_343">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_344">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_345">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_108">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="noel">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(106, 106, 106)</string>
+             </property>
+             <widget class="QWidget" name="widget_5" native="true">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>20</y>
+                <width>1161</width>
+                <height>1161</height>
+               </rect>
+              </property>
+              <widget class="QWidget" name="widget_49" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_370">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_371">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_372">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_117">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_50" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_373">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_374">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_375">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_118">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_51" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_376">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_377">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_378">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_119">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_52" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>0</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_379">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_380">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_381">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_120">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_53" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_382">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_383">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_384">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_121">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_54" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_385">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_386">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_387">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_122">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_55" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>580</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_388">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_389">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_390">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_123">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="widget_56" native="true">
+               <property name="geometry">
+                <rect>
+                 <x>870</x>
+                 <y>330</y>
+                 <width>271</width>
+                 <height>321</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255)</string>
+               </property>
+               <widget class="QLabel" name="label_391">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>240</y>
+                  <width>91</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>200.000</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_392">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>251</width>
+                  <height>191</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_393">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>200</y>
+                  <width>111</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgb(0, 0, 0);
+font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>KỆ SÁCH</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="bt_kesach_124">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>270</y>
+                  <width>251</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 5px solid 0;
+border: 10px;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>buy.png</normaloff>buy.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>300</width>
+                  <height>300</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="all">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(106, 106, 106)</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_cart">
+      <widget class="QLineEdit" name="le_input">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>71</y>
+         <width>711</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_add">
+       <property name="geometry">
+        <rect>
+         <x>660</x>
+         <y>330</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>add.png</normaloff>add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_delete">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>330</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>delete.png</normaloff>delete.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_edit">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>330</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>edit.png</normaloff>edit.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_showweb">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>330</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>show.png</normaloff>show.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_buy">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>330</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>buy.png</normaloff>buy.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="list_item">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>120</y>
+         <width>1051</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_buyed">
+      <widget class="QWidget" name="widget_10" native="true">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>40</y>
+         <width>971</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">BACKGROUND-COLOR: 0</string>
+       </property>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>0</y>
+          <width>481</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">BACKGROUND-COLOR: 0</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>tich.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>220</y>
+          <width>661</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 35pt &quot;MS Sans Serif&quot;;</string>
+        </property>
+        <property name="text">
+         <string>CẢM ƠN BẠN ĐÃ MUA HÀNG!</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>290</y>
+          <width>501</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 15pt &quot;MS Sans Serif&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Hãy quay về trang chủ để mua sắm thêm ;)</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="detailpg">
+      <widget class="QStackedWidget" name="stacked_detail">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>1211</width>
+         <height>541</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="kesachpg">
+        <widget class="QWidget" name="widget_9" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>1191</width>
+           <height>491</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="bt_preks">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>previous.png</normaloff>previous.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_11" native="true">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>0</y>
+            <width>621</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid rgb(37, 37, 37);
+color: black;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>441</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>KỆ SÁCH TRANG TRÍ PHÒNG </string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>110</y>
+             <width>441</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>Giá: 200.000 VNĐ</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>110</y>
+             <width>161</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0;
+text-decoration: line-through;
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(206, 206, 206);</string>
+           </property>
+           <property name="text">
+            <string>300.000</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_addks">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>add.png</normaloff>add.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_buyks">
+           <property name="geometry">
+            <rect>
+             <x>440</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>buy.png</normaloff>buy.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="stacked_kesach">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>550</width>
+            <height>431</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: white;
+background-color: rgb(106, 106, 106);
+border-radius: 15px</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="kesach1">
+           <widget class="QLabel" name="label">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>-10</y>
+              <width>551</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(106, 106, 106)</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/ke sach/2c268582b5d4431aaaa7151bca09d99b.jpg.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="kesach2">
+           <widget class="QLabel" name="label_2">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>551</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/ke sach/85804196c936d365b440bf260c385704.jpg.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="bt_nextks">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>nextp.png</normaloff>nextp.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="denpg">
+        <widget class="QWidget" name="widget_12" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>1191</width>
+           <height>491</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="bt_preden">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>previous.png</normaloff>previous.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_15" native="true">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>0</y>
+            <width>621</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid rgb(37, 37, 37);
+color: black;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>571</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>ĐÈN NGỦ (ÁNH SÁNG VÀNG NHẠT) TRANG TRÍ PHÒNG </string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_23">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>110</y>
+             <width>441</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>Giá: 300.000 VNĐ</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_24">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>110</y>
+             <width>161</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0;
+text-decoration: line-through;
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(206, 206, 206);</string>
+           </property>
+           <property name="text">
+            <string>500.000</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_addd">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>add.png</normaloff>add.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_buyd">
+           <property name="geometry">
+            <rect>
+             <x>440</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>buy.png</normaloff>buy.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="stacked_den">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>550</width>
+            <height>431</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: white;
+background-color: rgb(106, 106, 106);
+border-radius: 15px</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="den1">
+           <widget class="QLabel" name="label_29">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>551</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/den ngu/vn-11134207-7r98o-lkpf0gl7zca29d@resize_w900_nl.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="den2">
+           <widget class="QLabel" name="label_28">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>551</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/den ngu/vn-11134207-7r98o-lkpf0gl7xxpmfa.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="den3">
+           <widget class="QLabel" name="label_27">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>551</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/den ngu/vn-11134207-7r98o-lkpf0gl7v4kq6d@resize_w900_nl.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="bt_nextden">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>nextp.png</normaloff>nextp.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="giuongpg">
+        <widget class="QWidget" name="widget_13" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>1191</width>
+           <height>491</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="bt_preg">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>previous.png</normaloff>previous.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_14" native="true">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>0</y>
+            <width>621</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid rgb(37, 37, 37);
+color: black;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <widget class="QLabel" name="label_11">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>441</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>ĐỆM GIƯỜNG </string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_12">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>150</y>
+             <width>441</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>Giá: 450.000 VNĐ</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>65</x>
+             <y>130</y>
+             <width>161</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0;
+text-decoration: line-through;
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(206, 206, 206);</string>
+           </property>
+           <property name="text">
+            <string>650.000</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_addg">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>add.png</normaloff>add.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_buyg">
+           <property name="geometry">
+            <rect>
+             <x>440</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>buy.png</normaloff>buy.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="stacked_giuong">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>550</width>
+            <height>431</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: white;
+background-color: rgb(106, 106, 106);
+border-radius: 15px</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="dem">
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>-10</y>
+              <width>551</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(106, 106, 106)</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/giuong/vn-11134207-7r98o-lp6f3niiw95n18.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="bt_nextg">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>nextp.png</normaloff>nextp.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="caypg">
+        <widget class="QWidget" name="widget_16" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>1191</width>
+           <height>491</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="bt_prec">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>previous.png</normaloff>previous.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_17" native="true">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>0</y>
+            <width>621</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid rgb(37, 37, 37);
+color: black;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <widget class="QLabel" name="label_17">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>441</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>CÂY GIẢ TRANG TRÍ PHÒNG </string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>150</y>
+             <width>441</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0</string>
+           </property>
+           <property name="text">
+            <string>Giá: 1.300.000 VNĐ</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>65</x>
+             <y>130</y>
+             <width>161</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 0;
+background-color: 0;
+text-decoration: line-through;
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(206, 206, 206);</string>
+           </property>
+           <property name="text">
+            <string>1.600.000</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_addc">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>add.png</normaloff>add.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="bt_buyc">
+           <property name="geometry">
+            <rect>
+             <x>440</x>
+             <y>420</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>buy.png</normaloff>buy.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>400</width>
+             <height>400</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="stacked_cay">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>550</width>
+            <height>431</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: white;
+background-color: rgb(106, 106, 106);
+border-radius: 15px</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="cay1">
+           <widget class="QLabel" name="label_20">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>-40</y>
+              <width>551</width>
+              <height>511</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(106, 106, 106)</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/cay gia/vn-11134207-7ras8-m14zw7atdxmi.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="cay2">
+           <widget class="QLabel" name="label_21">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>551</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/cay gia/vn-11134207-7ras8-m14zw7atfc6y28.webp</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="cay3">
+           <widget class="QLabel" name="label_25">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>-100</y>
+              <width>551</width>
+              <height>571</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>pd_img/room/cay gia/vn-11134207-7ras8-m14zw7ati5bub5.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="bt_nextc">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>440</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(34, 34, 34);
+border-radius: 15px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>nextp.png</normaloff>nextp.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>134</width>
+            <height>150</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_log">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(106, 106, 106);
+border: 1px solid white;
+border-radius: 15px</string>
+      </property>
+      <widget class="QWidget" name="widget_99" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>1191</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_66">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>30</y>
+          <width>191</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_67">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>130</y>
+          <width>180</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_Lg_email">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>70</y>
+          <width>480</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(0, 0, 0);
+font: 75 20pt &quot;MS Serif&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_Lg_password">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>170</y>
+          <width>480</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(0, 0, 0);
+font: 75 20pt &quot;MS Serif&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bt_log">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>240</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+background-color: rgb(35, 35, 35)</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/11.png</normaloff>icon/11.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_70">
+        <property name="geometry">
+         <rect>
+          <x>790</x>
+          <y>160</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 50pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>LOGIN PAGE</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bt_res1">
+        <property name="geometry">
+         <rect>
+          <x>425</x>
+          <y>255</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0;
+border-radius: 10px solid 0;
+font: 75 italic 12pt &quot;MS Serif&quot;;
+BACKGROUND:0 </string>
+        </property>
+        <property name="text">
+         <string>RESGISTER</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_68">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>250</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 10pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+background-color: 0;</string>
+        </property>
+        <property name="text">
+         <string>Bạn chưa có tài khoản?</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_res">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(106, 106, 106);
+border: 1px solid white;
+border-radius: 15px</string>
+      </property>
+      <widget class="QWidget" name="widget_98" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>1191</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_61">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>30</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_62">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>130</y>
+          <width>180</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_63">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>Retype Password</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_email">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>70</y>
+          <width>480</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(0, 0, 0);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_password">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>170</y>
+          <width>480</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(0, 0, 0);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_retypePassword">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>270</y>
+          <width>480</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(0, 0, 0);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bt_sup">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+border: 0px;
+font: 75 20pt &quot;MS Serif&quot;;
+background-color: rgb(35, 35, 35)</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/12.png</normaloff>icon/12.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_64">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>340</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 10pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+background-color: 0;</string>
+        </property>
+        <property name="text">
+         <string>Đã có tài khoản?</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_65">
+        <property name="geometry">
+         <rect>
+          <x>790</x>
+          <y>160</y>
+          <width>321</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+font: 75 50pt &quot;MS Serif&quot;;
+color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>REGISTER PAGE</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bt_login1">
+        <property name="geometry">
+         <rect>
+          <x>355</x>
+          <y>343</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 1;
+border-radius: 10px solid 0;
+font: 75 italic 12pt &quot;MS Serif&quot;;
+background-color: 0</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <zorder>stacked_tong</zorder>
+    <zorder>sb_widget</zorder>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>widget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1269</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
